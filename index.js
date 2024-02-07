@@ -22,7 +22,7 @@ window.addEventListener("message", function(event) {
     
 function updateLink() {
   var search = encodeURIComponent(input.value);
-  search = "https://685ee897-88fc-427c-9478-e84b75c634f6-00-2aa6o6h46iw9h.picard.replit.dev/search/" + search;
+  search = "https://www.google.com/search?q=" + search;
   link.setAttribute('href', search);
 }
 
