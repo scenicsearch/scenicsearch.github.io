@@ -6,7 +6,6 @@ var btn = document.getElementById("opener");
 var span = document.getElementById("close");
 var menu = document.getElementById("menu");
 var profile = document.getElementById("profile");
-var prbtn = document.getElementById("propener");
 var main = document.getElementById('main');
 var loader = document.getElementById('loader');
 var linkEngine;
@@ -32,5 +31,4 @@ function loaded() {
 }
 
 btn.onclick = function() { modal.style.display = "block"; menu.style.display = "block";}
-prbtn.onclick = function() { modal.style.display = "block"; profile.style.display = "block";}
-span.onclick = function() { modal.style.display = "none"; menu.style.display = "none"; profile.style.display = "none";}
+span.onclick = function() { modal.style.display = "none"; menu.style.display = "none";}
